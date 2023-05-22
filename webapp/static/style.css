@@ -1,0 +1,89 @@
+body {
+    background-color: #1f242d;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #323946;
+}
+
+.custom-file-input {
+    width: 200px;
+}
+
+.select-method-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.custom-select {
+    width: 200px;
+    color: #000;
+}
+
+.btn {
+    width: 150px;
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #0ef;
+    filter: brightness(85%);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.2rem 7%;
+    background:#323946 ;
+}
+
+.footer-text p{
+    font-size: 0.8rem;
+}
+
+#original-hist,
+#segmented-hist,
+#visualization-hist {
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+/* Add hover effect to form elements */
+form input,
+form select,
+form button {
+    transition: background-color 0.3s ease;
+}
+
+form input:hover,
+form select:hover,
+form button:hover {
+    background-color: #0ef;
+}
+
+/* Add spacing between form elements */
+form > *:not(:last-child) {
+    margin-bottom: 10px;
+}
